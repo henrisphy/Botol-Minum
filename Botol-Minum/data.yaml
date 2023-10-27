@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['botol']
+
+roboflow:
+  workspace: pengolahan-citra-digital
+  project: botol-minum-llf9c
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/pengolahan-citra-digital/botol-minum-llf9c/dataset/1
